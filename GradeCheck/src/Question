@@ -1,0 +1,68 @@
+scription: Create a program that checks if a student's grade is above 50 and prints "Pass", else it prints "Fail". The program should accept an integer 'grade' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void checkGrade(int grade)
+
+{ // your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+}
+
+}
+
+Sample Input: 55
+
+Sample Output: Pass
+
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+Scanner scan=new Scanner(System.in);
+
+System.out.println("Enter Grade");
+
+int grade=scan.nextInt();
+
+checkGrade(grade);
+
+}
+
+public static void checkGrade(int grade)
+
+{
+
+if(grade>50)
+
+{
+
+System.out.println("PASS");
+
+}
+
+else
+
+{
+
+System.out.println("FAIL");
+
+}
+
+}
+
+}
+
+
+
